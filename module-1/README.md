@@ -20,10 +20,13 @@ in the "Additional boards manager URLs" field.
 selected the port containing "usbserial"
 5. To install the necessary library, go to Tools -> Manage Libraries and 
 search for "TFT_eSPI" by Bodmer. Click "Install"
-6. Go to Arduino IDE -> Settings and find the filepath for the "Sketchbook 
-location" field. Navigate to that path in order to find the Arduino folder
-in your filesystem and open libraries/TFT_eSPI/User_Setup_Select.h. Comment out
-the line #include <User_Setup.h> and uncomment the line #include <User_Setups/Setup25_TTGO_T_Display.h
+6. In order to flash code to my ESP32, I needed to also edit my <User_Setup.h>
+file. If you are unable to flash code after following the steps above, go to
+Arduino IDE -> Settings and find the filepath for the "Sketchbook  location" 
+field. Navigate to that path in order to find the Arduino folder in your 
+filesystem and open libraries/TFT_eSPI/User_Setup_Select.h. Comment out the
+line #include <User_Setup.h> and uncomment the line 
+#include <User_Setups/Setup25_TTGO_T_Display.h
 
 ### To flash my module-1 code:
 1. Open the "module-1.ino" file in this repo and copy the code.
