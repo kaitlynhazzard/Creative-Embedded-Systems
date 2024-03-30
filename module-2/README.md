@@ -47,7 +47,7 @@ variables for the pin values in the Arduino code and flash the code again
 ### Play Game in Processing
 1. Download Processing https://processing.org/download
 2. Open Processing, go to File -> New
-3. Copy the code from jumpRope.pde into the new file
+3. Copy the code from "jumpRope.pde" into the new file
 4. Press the triangle "Play" button
 5. To jump in the jump rope game, press the button on the breadboard
 6. To change the color of the player, turn the potentiometer all the way to the
